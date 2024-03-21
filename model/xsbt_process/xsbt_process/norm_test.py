@@ -35,7 +35,7 @@ def add_index(input,output):
 
 if __name__ == '__main__':
 
-    mutrvd('/home/yons/person/zc/ArVD/model/xsbt_process/data/d2a_lbv1_function_dev.csv','/home/yons/person/zc/ArVD/model/xsbt_process/data/train_norm.csv')
+    mutrvd('/home/yons/person/zc/ArVD/model/xsbt_process/data/d2a_lbv1_function_train.csv','/home/yons/person/zc/ArVD/model/xsbt_process/data/train_norm.csv')
     #  add index for datasets  ,waring : train 、valid 、test  (index is not same)
     add_index(r'/home/yons/person/zc/ArVD/model/xsbt_process/data/train_norm.csv', r'/home/yons/person/zc/ArVD/model/xsbt_process/data/train_index.csv')
 
