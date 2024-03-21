@@ -77,9 +77,9 @@ We compare with state-of-the-art methods in the first five experiments, includin
 
 
 # step4:  Add data path
-**Add the paths of the training set, validation set, and test set in the huggingface_csv_file function in the transfer_params.py file.**
+**Add the paths of the training set, validation set, and test set in the `huggingface_csv_file` function in the `transfer_params.py` file.**
 
-**When selecting a small sample experiment, choose the desired number of training set samples in the choice_few_shot_number function in the transfer_params.py file. This selection is random and will vary each time the program is restarted for training.**
+**When selecting a small sample experiment, choose the desired number of training set samples in the `choice_few_shot_number function` in the `transfer_params.py` file. This selection is random and will vary each time the program is restarted for training.**
  
 # step5:  Train
 **In this step, we will train the model to find the optimal parameters. The model results will be stored in the baseline-warp_0-microsoft/unixcoder-base-nine1 file, and the model's hyperparameters will be set in the warp.jsonnet file. We set the initial learning rate to 0.006 and select the best-performing model, Microsoft/UniXcoder. We use the Adam optimizer with a triangular learning rate schedule, where the warm-up steps constitute 6% of the total training steps. The training will involve 10-20 epochs with a batch size of 16.**
