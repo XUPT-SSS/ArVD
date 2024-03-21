@@ -31,7 +31,7 @@ framework that is designed to enhance detector robustness.
 
 
 # Design of ArVD
-<div align=center><img src="https://github.com/SunshineMiles/ArVD/blob/master/frame.png" width="2200" height="250" /></div>
+<div align=center><img src="https://github.com/XUPT-SSS/ArVD/blob/master/frame.png" width="2200" height="250" /></div>
 
  **ArVD proceeds with the following main steps:**
  -  **_input preparation_:** which converts the given code snippets into structure-aware token sequences as inputs;  
