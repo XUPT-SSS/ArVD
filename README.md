@@ -41,7 +41,7 @@ framework that is designed to enhance detector robustness.
 
 
 # Datasets
-Download the corresponding dataset： Link to experimental dataset:：https://drive.google.com/drive/folders/1bJ9auNaIWSaH5SrLy1Xnr9YtNmGO-Ekt,These include D2A, Devign, Reveal, TrVD, ZigZag
+Download the corresponding dataset. The link to the experimental dataset is: https://drive.google.com/drive/folders/1bJ9auNaIWSaH5SrLy1Xnr9YtNmGO-Ekt. It includes the following datasets: D2A, Devign, Reveal, TrVD, and ZigZag.
 
 
 
